@@ -1,7 +1,5 @@
 <script lang="ts">
   import Calculadora from "./components/Calculadora.svelte";
-
-  export let name: string;
 </script>
 
 <main>
