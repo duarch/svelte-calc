@@ -1,9 +1,11 @@
-<script>
+<script lang="ts">
   import Botao from "./Botao.svelte";
   import Linha from "./Linha.svelte";
+  import Tela from "./Tela.svelte";
 </script>
 
 <div class="calculadora">
+  <Tela valor="100" />
   <Linha>
     <Botao destaque triplo texto="AC" />
     <Botao operacao texto="/" />
